@@ -1,0 +1,5 @@
+@import "tailwindcss";
+:root { --ink:#1b1b2f; --paper:#eef0f7; --violet:#5b3df5; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body), system-ui, sans-serif; }
+:focus-visible { outline: 3px solid var(--violet); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
